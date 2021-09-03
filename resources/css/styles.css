@@ -13,11 +13,13 @@ html {
 
 nav {
     height: 69px;
-    margin-left: 10px;
-    margin-right: 10px;
     border-bottom: 1px solid seashell;
     display: flex;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
 }
 
 nav li {
@@ -28,4 +30,19 @@ nav li {
 #logo {
     align: left;
     height: 50px;
+}
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/img-mission-background.webp");
+    display:flex;
+    align-items: center;
+}
+
+.mtext {
+    width: 100%;
+    align-content: center;
+    background-color: black;
+    padding: 10px;
 }
