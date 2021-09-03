@@ -1,3 +1,7 @@
+* {
+    margin: 0 auto;
+}
+
 html {
     font-family: 'Helvetica', 'Georgia', sans-serif;
     font-size: 22px;
@@ -5,4 +9,23 @@ html {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+}
+
+nav {
+    height: 69px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: inline-flex;
+    justify-content: right;
+}
+
+#logo {
+    align: left;
+    height: 50px;
 }
